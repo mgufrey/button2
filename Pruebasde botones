@@ -1,0 +1,12 @@
+<h1>Prueba maestra</h1>
+<br>
+<br>
+<div id="wrap">
+  <div class="cont-box">
+    <div class="profile"></div>
+    <button class="btn-base">Click on me</button> 
+  </div>
+</div>
+<radio>
+  
+</radio>
