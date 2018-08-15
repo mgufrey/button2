@@ -1,0 +1,109 @@
+body{
+  font-family:Roboto;
+  font-size:16px;
+  color:#333;
+  padding:16px;
+}
+
+
+.btn-base {
+  width: 150px;
+  height: 56px;
+  position: absolute;
+  left: 100px;
+  top: 170px;
+  text-align:center;
+  border-radius:30px;
+  border:none;
+  font-size:18px;
+  transition:.3s ease-in-out;
+  background-color: rgba(220, 0, 0, .56);
+  box-shadow: 0 8px 14px 0 rgba(220, 0, 0, 0.32);
+  color: rgba(300,300,300,1);
+  cursor:pointer;
+  z-index:1;
+
+}
+.btn-base:hover{
+  position: absolute;
+  left: 100px;
+  top: 170px;
+  text-align:center;
+  border-radius:40px;
+  border:none;
+  font-size:18px;
+  transition:.3s ease-in-out;
+  background-color: rgba(220, 0, 0, .74);
+  box-shadow: 0 4px 8px 0 rgba(220, 0, 0, 0.56);
+  color: rgba(300,300,300,1);
+  transform:scale(1.05,1.05);
+  z-index:3;
+  cursor:pointer;
+  
+}
+.btn-base:active{
+  position: absolute;
+  left: 100px;
+  top: 175px;
+  text-align:center;
+  border-radius:40px;
+  border:none;
+  font-size:18px;
+  transition:.1s ease-in-out;
+  background-color: rgba(220, 0, 0, .74);
+  box-shadow: 0 2px 3px 0 rgba(220, 0, 0, 0.56);
+  color: rgba(300,300,300,1);
+  transform:scale(.95,.95);
+  z-index:3;
+  cursor:pointer;
+  
+}
+.cont-box{
+  width:350px;
+  height:250px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  position:relative;
+  transition:.5s;
+  margin:16px;
+  border-radius:10px;
+}
+
+.cont-box:hover{
+  width:350px;
+  height:250px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  position:relative;
+  margin:16px;
+  border-radius:10px;
+}
+
+#wrap{
+  width:;90%;
+  height:350px;
+}
+.profile{
+  width:90px;
+  height:90px;
+  border-radius:50px;
+  background-color:grey;
+  position:absolute;
+  left:38%;
+  top:35px;
+  box-shadow:0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  transition:.3s;
+  outline:5px white;
+  background-image:url("https://i.stack.imgur.com/uguXk.jpg?s=328&g=1");
+  background-size: cover;
+}
+.profile:hover{
+  width:100%;
+  height:130px;
+  border-radius:5px 5px 0px 0px;
+  background-color:grey;
+  left:0%;
+  top:0px;
+  box-shadow:0 10px 12px 0 rgba(0, 0, 0, 0);
+  transition:.3s;
+  background-image:url("https://i.stack.imgur.com/uguXk.jpg?s=328&g=1");
+  background-size: cover;
+}
